@@ -151,7 +151,7 @@
             <div class="space-y-6">
               <div class="stat-item">
                 <span class="text-gray-700 dark:text-gray-300">Current Role</span>
-                <span class="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Planning Strategist</span>
+                <span class="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Digital Operations Specialist</span>
               </div>
               <div class="stat-item">
                 <span class="text-gray-700 dark:text-gray-300">Global Awards</span>
@@ -172,39 +172,84 @@
     </section>
 
     <!-- Experience Section -->
-    <section id="experience" class="py-20 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="section-title">
-          Professional Experience
-        </h2>
-        
-        <div class="max-w-4xl mx-auto">
-          <div class="relative">
-            <div class="absolute left-4 sm:left-8 top-0 bottom-0 w-1 bg-gradient-to-b from-blue-500 via-purple-500 to-pink-500 rounded-full"></div>
-            
-            <div class="relative pl-12 sm:pl-20 pb-12">
-              <div class="absolute left-2 sm:left-6 top-0 w-6 h-6 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full border-4 border-white dark:border-gray-900 shadow-lg"></div>
-              <div class="experience-card">
-                <h3 class="text-xl xl:text-2xl font-bold mb-3 bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Planning Strategist (Digital Marketing)</h3>
-                <p class="text-gray-600 dark:text-gray-400 mb-4 font-medium">Asiatic Mindshare Ltd. • July 2023 - Present</p>
-                <p class="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
-                  Lead strategy, planning, and execution of digital campaigns for major brands including Unilever 
-                  (Pureit, Rin, Surf Excel, Wheel, Horlicks), Bata, Bkash, and Castrol. Delivered award-winning campaigns 
-                  across Meta, Google, DV360, and TikTok platforms. Executed innovative campaigns like "AR Shoe Trial" 
-                  for BATA and "Rin Beep Call" - first of its kind in Bangladesh.
+    <!-- ExperienceSection.vue - Updated with new Unilever role -->
+
+  <section id="experience" class="py-20 px-4 bg-gray-950">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-blue-400 to-blue-500 bg-clip-text text-transparent">
+        Professional Experience
+      </h2>
+      
+      <div class="max-w-3xl mx-auto">
+        <div class="relative">
+          <!-- Timeline line -->
+          <div class="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-blue-600"></div>
+          
+          <!-- Current Role - Unilever -->
+          <div class="relative pl-20 pb-12">
+            <div class="absolute left-6 top-0 w-4 h-4 bg-green-500 rounded-full border-4 border-black animate-pulse"></div>
+            <div class="bg-gradient-to-br from-black to-gray-900 p-6 rounded-2xl border border-green-800/50 shadow-lg shadow-green-500/10">
+              <div class="flex items-center gap-2 mb-2">
+                <h3 class="text-xl font-semibold text-green-400">Digital Operations Specialist</h3>
+                <span class="px-2 py-1 bg-green-500/20 text-green-300 rounded-full text-xs font-medium">Current</span>
+              </div>
+              <p class="text-gray-400 mb-3">Unilever Bangladesh • August 2025 - Present</p>
+              <div class="space-y-3 mb-4">
+                <p class="text-gray-300 leading-relaxed">
+                  Managing end-to-end DDM platforms (Gigya, Dataiku, Adobe Audience Manager, Adobe Analytics, Campaign Wizard) 
+                  for consumer data acquisition, segmentation and remarketing as the sole Unilever employee authorized to handle consumer data.
                 </p>
-                <div class="flex flex-wrap gap-2">
-                  <span class="skill-tag bg-gradient-to-r from-blue-500 to-cyan-500">Strategy Planning</span>
-                  <span class="skill-tag bg-gradient-to-r from-red-500 to-pink-500">Campaign Execution</span>
-                  <span class="skill-tag bg-gradient-to-r from-green-500 to-emerald-500">Data Analysis</span>
-                  <span class="skill-tag bg-gradient-to-r from-purple-500 to-indigo-500">Award-Winning</span>
-                </div>
+                <p class="text-gray-300 leading-relaxed">
+                  Creating audience segments aligned with data strategy and JTBDs, championing DDM marketing and personalized content 
+                  to drive superior digital performance across brands and categories.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                  Bridging brands, IT and legal teams for data governance, risk mitigation, and ensuring legally compliant data collection 
+                  while supporting performance marketing campaigns and e-commerce partnerships.
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Data Analytics</span>
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Adobe Suite</span>
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Consumer Segmentation</span>
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Data Governance</span>
+                <span class="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Performance Marketing</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Previous Role - Asiatic Mindshare -->
+          <div class="relative pl-20 pb-12">
+            <div class="absolute left-6 top-0 w-4 h-4 bg-blue-500 rounded-full border-4 border-black"></div>
+            <div class="bg-gradient-to-br from-black to-gray-900 p-6 rounded-2xl border border-gray-800">
+              <h3 class="text-xl font-semibold mb-2 text-blue-400">Planning Strategist (Digital Marketing)</h3>
+              <p class="text-gray-400 mb-3">Asiatic Mindshare Ltd. • July 2023 - August 2025</p>
+              <div class="space-y-3 mb-4">
+                <p class="text-gray-300 leading-relaxed">
+                  Led strategy, planning, and execution of digital campaigns for major brands including Unilever 
+                  (Pureit, Rin, Surf Excel, Wheel, Horlicks), Bata, Bkash, and Castrol.
+                </p>
+                <p class="text-gray-300 leading-relaxed">
+                  Delivered award-winning campaigns across Meta, Google, DV360, and TikTok platforms. Executed innovative 
+                  campaigns like "AR Shoe Trial" for BATA and "Rin Beep Call" - first of its kind in Bangladesh.
+                </p>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Strategy Planning</span>
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Campaign Execution</span>
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Multi-Platform</span>
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Award-Winning</span>
+                <span class="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Innovation</span>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
+
+
 
     <!-- Skills Section -->
     <section id="skills" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-gray-800 dark:via-slate-800 dark:to-indigo-900">
@@ -254,66 +299,98 @@
     </section>
 
     <!-- Achievements Section -->
-    <section id="achievements" class="py-20 px-4 sm:px-6 lg:px-8">
-      <div class="max-w-7xl mx-auto">
-        <h2 class="section-title">
-          Awards & Achievements
-        </h2>
+  <section id="achievements" class="py-20 px-4 bg-gray-950">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-4xl font-bold text-center mb-16 bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
+        Awards & Achievements
+      </h2>
+      
+      <!-- Achievement Gallery Header -->
+      <div class="mb-12">
+        <h3 class="text-2xl font-bold mb-8 text-center bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
+          Prize Ceremony Gallery
+        </h3>
         
-        <!-- Achievement Gallery Header -->
-        <div class="gallery-header mb-12">
-          <h3 class="text-2xl font-bold mb-6 text-center bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">Prize Ceremony Gallery</h3>
-          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
-            <div v-for="i in 18" :key="i" class="gallery-image-container group">
-              <img 
-                :src="`/aw${i}.jpg`" 
-                :alt="`Award ceremony photo ${i}`"
-                class="gallery-image"
-                loading="lazy"
-              />
-              <div class="gallery-overlay">
-               <div class="w-8 h-8 text-yellow-400">
-  <svg xmlns="/public/trophy2.svg" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M16 2H8v2H2v3c0 3.31 2.69 6 6 6 0 2.76-2.24 5-5 5H2v2h7v2H9v2h6v-2h-1v-2h7v-2h-1c-2.76 0-5-2.24-5-5 3.31 0 6-2.69 6-6V4h-6V2z"/>
-  </svg>
+        <!-- Add this to your template - replace the existing gallery section -->
+<!-- Replace your gallery section with this -->
+<div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-4">
+  <div v-for="i in 22" :key="i" class="relative group cursor-pointer overflow-hidden rounded-lg" @click="openModal(`/aw${i}.jpg`, `Award ceremony photo ${i}`)">
+    <img 
+      :src="`/aw${i}.jpg`" 
+      :alt="`Award ceremony photo ${i}`"
+      class="w-full h-auto transition-transform duration-300 group-hover:scale-110 pointer-events-none"
+      loading="lazy"
+    />
+    <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end justify-center pb-2">
+      <p class="text-xs text-white font-medium">Click to view</p>
+    </div>
+  </div>
 </div>
 
-                <p class="text-xs text-white font-medium">Award {{ i }}</p>
-              </div>
+<!-- Fullscreen Modal -->
+<div 
+  v-if="modalOpen" 
+  class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-90 backdrop-blur-sm"
+  @click="closeModal"
+>
+  <div class="relative max-w-7xl max-h-screen p-4 w-full h-full flex items-center justify-center">
+    <!-- Close Button -->
+    <button 
+      @click="closeModal"
+      class="absolute top-4 right-4 z-10 w-12 h-12 bg-black bg-opacity-50 hover:bg-opacity-70 rounded-full flex items-center justify-center text-white text-2xl transition-all duration-300 hover:scale-110"
+    >
+      ×
+    </button>
+    
+    <!-- Image -->
+    <img 
+      :src="modalImage" 
+      :alt="modalAlt"
+      class="max-w-full max-h-full object-contain rounded-lg shadow-2xl"
+      @click.stop
+    />
+    
+    <!-- Image Title -->
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 bg-black bg-opacity-70 px-4 py-2 rounded-full">
+      <p class="text-white text-sm font-medium">{{ modalAlt }}</p>
+    </div>
+  </div>
+</div>
+      </div>
+
+      <!-- Achievements Grid -->
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8 mb-16">
+        <div v-for="(achievement, index) in achievements" :key="index" 
+             class="bg-gradient-to-br from-black to-gray-900 p-6 rounded-2xl border border-gray-800 hover:border-yellow-500/50 transition-all duration-300 group">
+          <div class="flex items-start justify-between mb-4">
+            <div class="w-12 h-12 bg-gradient-to-r from-yellow-500 to-orange-500 rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">🏆</span>
             </div>
+            <span class="px-3 py-1 bg-yellow-500/20 text-yellow-300 rounded-full text-sm font-medium">
+              {{ achievement.year }}
+            </span>
           </div>
+          <h3 class="text-lg font-bold mb-3 bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent">
+            {{ achievement.title }}
+          </h3>
+          <p class="text-sm text-gray-400 leading-relaxed">
+            {{ achievement.event }}
+          </p>
         </div>
+      </div>
 
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 xl:gap-8">
-          <div v-for="(achievement, index) in achievements" :key="index" class="achievement-card group">
-            <div class="flex items-start justify-between mb-4">
-              <div class="w-8 h-8 text-yellow-400">
-  <svg xmlns="/public/meztrophy.svg" fill="currentColor" viewBox="0 0 24 24">
-    <path d="M16 2H8v2H2v3c0 3.31 2.69 6 6 6 0 2.76-2.24 5-5 5H2v2h7v2H9v2h6v-2h-1v-2h7v-2h-1c-2.76 0-5-2.24-5-5 3.31 0 6-2.69 6-6V4h-6V2z"/>
-  </svg>
-</div>
-
-              <span class="achievement-year">
-                {{ achievement.year }}
-              </span>
-            </div>
-            <h3 class="font-bold mb-3 bg-gradient-to-r from-yellow-600 to-orange-600 bg-clip-text text-transparent text-lg">{{ achievement.title }}</h3>
-            <p class="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{{ achievement.event }}</p>
-          </div>
-        </div>
-
-        <div class="px-4 sm:px-6 lg:px-8 mt-16 text-center">
-  <p class="text-lg sm:text-xl lg:text-2xl font-bold mb-6 
-             bg-gradient-to-r from-yellow-600 via-orange-500 to-red-500 
-             bg-clip-text text-transparent">
-    First-ever Bangladesh wins at major global marketing competitions
-  </p>
-  <a href="#contact" class="inline-block px-6 py-3 text-sm sm:text-base font-semibold text-white bg-red-600 rounded-full shadow hover:bg-red-700 transition">
-    Let's Create Award-Winning Campaigns
-  </a>
-</div>
-</div>
-    </section>
+      <!-- Call to Action -->
+      <div class="text-center">
+        <p class="text-lg sm:text-xl lg:text-2xl font-bold mb-6 bg-gradient-to-r from-yellow-600 via-orange-500 to-red-500 bg-clip-text text-transparent">
+          First-ever Bangladesh wins at major global marketing competitions
+        </p>
+        <a href="#contact" 
+           class="inline-block px-8 py-3 text-base font-semibold text-white bg-gradient-to-r from-red-600 to-red-700 rounded-full shadow-lg hover:shadow-red-500/25 hover:scale-105 transition-all duration-300">
+          Let's Create Award-Winning Campaigns
+        </a>
+      </div>
+    </div>
+  </section>
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-gray-800 dark:via-slate-800 dark:to-indigo-900">
@@ -355,18 +432,48 @@
               </svg>
             </div>
             <h3 class="text-lg font-bold mb-2">Location</h3>
-            <p class="text-sm text-gray-600 dark:text-gray-400">Dhaka, Bangladesh</p>
+            <p class="text-sm text-gray-600 dark:text-gray-400">TB Gate,Mohakhali,Dhaka, Bangladesh</p>
           </div>
 
-          <div class="contact-card group">
-            <div class="contact-icon bg-gradient-to-br from-cyan-500 to-blue-500">
-              <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-              </svg>
-            </div>
-            <h3 class="text-lg font-bold mb-2">LinkedIn</h3>
-            <p class="text-sm text-gray-600 dark:text-gray-400">sharif-mezba</p>
-          </div>
+         <!-- LinkedIn -->
+<div class="contact-card group">
+  <div class="contact-icon bg-gradient-to-br from-cyan-500 to-blue-500">
+    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+      <path
+        d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+    </svg>
+  </div>
+  <h3 class="text-lg font-bold mb-2">LinkedIn</h3>
+  <a href="https://www.linkedin.com/in/sharif-mezba"
+     target="_blank"
+     rel="noopener noreferrer"
+     class="text-sm text-blue-600 dark:text-blue-400 underline hover:text-blue-800 dark:hover:text-blue-300">
+    sharif-mezba
+  </a>
+</div>
+
+<!-- Location -->
+<!-- <div class="contact-card group">
+  <div class="contact-icon bg-gradient-to-br from-green-500 to-emerald-500">
+    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+    </svg>
+  </div>
+  <h3 class="text-lg font-bold mb-4">Location</h3>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.1049815915276!2d90.40648857479282!3d23.77927568766818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c709957ed997%3A0x242bac45778271fc!2sMohakhali%20TB%20Gate%20Mosque!5e0!3m2!1sen!2sbd!4v1755202457228!5m2!1sen!2sbd" 
+    width="100%" 
+    height="250" 
+    style="border:0;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div> -->
+
         </div>
       </div>
     </section>
@@ -383,6 +490,32 @@ export default {
     const heroCanvas = ref(null)
     const animationId = ref(null)
     const darkMode = inject('darkMode')
+
+    // Modal variables
+    const modalOpen = ref(false)
+    const modalImage = ref('')
+    const modalAlt = ref('')
+
+    // Modal functions
+    const openModal = (imageSrc, imageAlt) => {
+      modalImage.value = imageSrc
+      modalAlt.value = imageAlt
+      modalOpen.value = true
+      document.body.style.overflow = 'hidden'
+    }
+
+    const closeModal = () => {
+      modalOpen.value = false
+      modalImage.value = ''
+      modalAlt.value = ''
+      document.body.style.overflow = 'unset'
+    }
+
+    const handleKeydown = (event) => {
+      if (event.key === 'Escape' && modalOpen.value) {
+        closeModal()
+      }
+    }
 
     const skills = {
       digital: [
@@ -702,18 +835,29 @@ export default {
     }
 
     onMounted(() => {
+      // Add keyboard listener for modal
+      window.addEventListener('keydown', handleKeydown)
+      
       const cleanup = initAdvancedThreeJS()
       setupSmoothScrolling()
-      
-      onBeforeUnmount(() => {
-        if (cleanup) cleanup()
-      })
+    })
+
+    onBeforeUnmount(() => {
+      window.removeEventListener('keydown', handleKeydown)
+      if (animationId.value) {
+        cancelAnimationFrame(animationId.value)
+      }
     })
 
     return {
       heroCanvas,
       skills,
-      achievements
+      achievements,
+      modalOpen,
+      modalImage,
+      modalAlt,
+      openModal,
+      closeModal
     }
   }
 }
