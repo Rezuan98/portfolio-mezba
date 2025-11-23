@@ -133,7 +133,7 @@
             <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
               I'm an award-winning Digital Marketing Strategist with proven expertise delivering data-driven campaigns 
               that drive measurable sales impact across industries from FMCG to tech and finance. Currently at 
-              Mindshare Bangladesh, I work with major brands including Unilever, Bata, Bkash, and Castrol.
+              Unilever Bangladesh, I work with major brands including Bata, Bkash, and Castrol.
             </p>
             <p class="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
               My executional expertise across Meta Ads, Google Ads, TikTok, DV360, and GA4 enables me to build 
@@ -151,7 +151,7 @@
             <div class="space-y-6">
               <div class="stat-item">
                 <span class="text-gray-700 dark:text-gray-300">Current Role</span>
-                <span class="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Digital Operations Specialist</span>
+                <span class="font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">Digital Media Operations Specialist</span>
               </div>
               <div class="stat-item">
                 <span class="text-gray-700 dark:text-gray-300">Global Awards</span>
@@ -190,7 +190,7 @@
             <div class="absolute left-6 top-0 w-4 h-4 bg-green-500 rounded-full border-4 border-black animate-pulse"></div>
             <div class="bg-gradient-to-br from-black to-gray-900 p-6 rounded-2xl border border-green-800/50 shadow-lg shadow-green-500/10">
               <div class="flex items-center gap-2 mb-2">
-                <h3 class="text-xl font-semibold text-green-400">Digital Operations Specialist</h3>
+                <h3 class="text-xl font-semibold text-green-400">Digital Media Operations Specialist</h3>
                 <span class="px-2 py-1 bg-green-500/20 text-green-300 rounded-full text-xs font-medium">Current</span>
               </div>
               <p class="text-gray-400 mb-3">Unilever Bangladesh • August 2025 - Present</p>
